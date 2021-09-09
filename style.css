@@ -1,0 +1,32 @@
+body{
+    background-color: darkcyan;
+    
+}
+h1{
+    margin: 15xpx;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+#container{
+    width: 80%;
+}
+#container1{
+    margin-left: 2%;
+    width: 20%;
+}
+@media(min-width:768px){
+    h1{
+        text-align: left;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #container1{
+        margin: 0;
+    }
+}
