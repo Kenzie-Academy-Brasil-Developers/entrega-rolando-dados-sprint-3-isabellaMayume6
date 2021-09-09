@@ -2,6 +2,7 @@
 let dado1=0
 let dado2=0
 let count=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+//box de dados e de barras
 const segsec = document.getElementById('container')
 const primsec = document.getElementById('container1')
 function sumOfDices(result){
